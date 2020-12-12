@@ -1,0 +1,2 @@
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\01_Komodo_Cafe_App.csprojAssemblyReference.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\01_Komodo_Cafe_App.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\JunkYard\bin\Debug\JunkYard.exe.config
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\JunkYard\bin\Debug\JunkYard.exe
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\JunkYard\bin\Debug\JunkYard.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\JunkYard\obj\Debug\JunkYard.csproj.CoreCompileInputs.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\JunkYard\obj\Debug\JunkYard.exe
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\JunkYard\obj\Debug\JunkYard.pdb

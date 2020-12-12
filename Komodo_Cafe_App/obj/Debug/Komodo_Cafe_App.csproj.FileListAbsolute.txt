@@ -1,0 +1,10 @@
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\Komodo_Cafe_App.csproj.CoreCompileInputs.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\bin\Debug\Komodo_Cafe_App.exe.config
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\bin\Debug\Komodo_Cafe_App.exe
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\bin\Debug\Komodo_Cafe_App.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\bin\Debug\01_Gold_Badge_Challenges_Komodo_Cafe.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\bin\Debug\01_Gold_Badge_Challenges_Komodo_Cafe.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\Komodo_Cafe_App.csprojAssemblyReference.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\Komodo_Cafe_App.csproj.CopyComplete
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\Komodo_Cafe_App.exe
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\Komodo_Cafe_App\obj\Debug\Komodo_Cafe_App.pdb

@@ -1,0 +1,16 @@
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\obj\Debug\02_Komodo_Claims_Test.csprojAssemblyReference.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\obj\Debug\02_Komodo_Claims_Test.csproj.CoreCompileInputs.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\02_Komodo_Claims_Test.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\02_Komodo_Claims_Test.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\02_Komodo_Claims_Dept.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\02_Komodo_Claims_Dept.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\obj\Debug\02_Komodo_Claims_Test.csproj.CopyComplete
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\obj\Debug\02_Komodo_Claims_Test.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_Test\obj\Debug\02_Komodo_Claims_Test.pdb

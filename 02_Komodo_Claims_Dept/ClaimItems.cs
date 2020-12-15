@@ -17,10 +17,10 @@ namespace _02_Komodo_Claims_Dept
     public class ClaimItems
     {
         public int ClaimId { get; set; }
-        public List<TypeOfClaim> ClaimType { get; set; } = new List<TypeOfClaim>(); 
+        public TypeOfClaim ClaimType { get; set; } 
         public string Description { get; set; }
         public decimal ClaimAmount { get; set; }
-        public DateTime DateOfIncident { get; set; }
+        public DateTime DateOfIncident { get; set; } 
         public DateTime DateOfClaim { get; set; }
         public bool IsValid { get; set; }
 
@@ -29,7 +29,7 @@ namespace _02_Komodo_Claims_Dept
 
         }
 
-        public ClaimItems(int claimId, List<TypeOfClaim> claimType, string description, decimal claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public ClaimItems(int claimId, TypeOfClaim claimType, string description, decimal claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
             ClaimId = claimId;
             ClaimType = claimType;

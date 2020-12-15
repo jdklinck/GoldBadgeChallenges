@@ -8,24 +8,43 @@ namespace _02_Komodo_Claims_Dept
 {
     public class KomodoClaimsRepo
     {
-        private readonly List<ClaimItems> claimItems = new List<ClaimItems>();
 
-        //Create
-        public void AddNewClaim(ClaimItems items)
+        private Queue<ClaimItems> _claimItems = new Queue<ClaimItems>();
+
+        public void AddNewClaim(ClaimItems claims)
         {
-            claimItems.Add(items);
+            _claimItems.Enqueue(claims);
         }
 
-        //Read
-        public List<ClaimItems> ViewAllClaims()
+        public Queue<ClaimItems> GetClaimItems()
         {
-            return claimItems;
+            return _claimItems;
         }
 
-        //Update
-        //Next Claim ???
+        public void NextInQueue(ClaimItems claim)
+        {
+            _claimItems.Dequeue();
+        }
 
-        //Delete
+        public ClaimItems NextClaim()
+        {
+            ClaimItems NextClaim = _claimItems.Peek();
+            return NextClaim;
+        }
 
+        public bool ValidateClaim(DateTime dateOfClaim, DateTime dateOfIncident,int lengthOfValidClaim)
+        {
+            int ans = dateOfIncident.Day - dateOfClaim.Day ;
+            if (ans < lengthOfValidClaim && ans >0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
+
 }
+

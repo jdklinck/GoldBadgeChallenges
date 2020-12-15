@@ -24,7 +24,7 @@ namespace _01_Komodo_Cafe_Test
         public void AddToMenu()
         {
             int expected = 1;
-            List<MenuItem> items = _cafeRepo.ViewMenuItem();
+            List<MenuItem> items = _cafeRepo.ViewMenuItem(); 
             int actual = items.Count;
             //Assert-------
             Assert.AreEqual(expected, actual);

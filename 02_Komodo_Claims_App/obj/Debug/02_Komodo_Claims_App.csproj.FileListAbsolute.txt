@@ -5,3 +5,6 @@ C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\obj\De
 C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\obj\Debug\02_Komodo_Claims_App.csproj.CoreCompileInputs.cache
 C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\obj\Debug\02_Komodo_Claims_App.exe
 C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\obj\Debug\02_Komodo_Claims_App.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\bin\Debug\02_Komodo_Claims_Dept.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\bin\Debug\02_Komodo_Claims_Dept.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\02_Komodo_Claims_App\obj\Debug\02_Komodo_Claims_App.csproj.CopyComplete

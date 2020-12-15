@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\02_Komodo_Claims_Dept\02_Komodo_Claims_Dept.csproj">
+      <Project>{fe062cf5-5108-4aa0-ada0-756d14cc47f2}</Project>
+      <Name>02_Komodo_Claims_Dept</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

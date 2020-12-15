@@ -1,0 +1,6 @@
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance\bin\Debug\03_Komodo_Insurance.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance\bin\Debug\03_Komodo_Insurance.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance\obj\Debug\03_Komodo_Insurance.csprojAssemblyReference.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance\obj\Debug\03_Komodo_Insurance.csproj.CoreCompileInputs.cache
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance\obj\Debug\03_Komodo_Insurance.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance\obj\Debug\03_Komodo_Insurance.pdb

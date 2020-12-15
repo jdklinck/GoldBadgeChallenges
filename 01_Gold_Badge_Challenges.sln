@@ -10,7 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59D2427E-C937-43ED-8380-5F45F54DA11D}"
 	ProjectSection(SolutionItems) = preProject
 		Cafe_Notes.txt = Cafe_Notes.txt
-		Claims_Dept_Notes.txt = Claims_Dept_Notes.txt
+		Claims_Notes.txt = Claims_Notes.txt
+		Insurance_Notes.txt = Insurance_Notes.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Komodo_Cafe_Test", "01_Komodo_Cafe_Test\01_Komodo_Cafe_Test.csproj", "{8F195B92-8BEA-4DBF-ABA4-AC8936B5716F}"
@@ -20,6 +21,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Komodo_Claims_App", "02_Komodo_Claims_App\02_Komodo_Claims_App.csproj", "{C9083DE5-8EE0-4909-86E5-A4EC5ADD8D71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkYard", "JunkYard\JunkYard.csproj", "{8846AE24-D0EF-4455-A85C-90C62DA6FD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Komodo_Claims_Test", "02_Komodo_Claims_Test\02_Komodo_Claims_Test.csproj", "{C207E2AD-9AF7-4E34-836E-8F641025017E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo_Insurance", "03_Komodo_Insurance\03_Komodo_Insurance.csproj", "{CCA152A9-49FC-477D-A47A-923AC0A13076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo_Insurance_App", "03_Komodo_Insurance_App\03_Komodo_Insurance_App.csproj", "{B418A4C4-2B79-4FC2-8685-626A23F6E9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Komodo_Insurance_Test", "03_Komodo_Insurance_Test\03_Komodo_Insurance_Test.csproj", "{FB16B64D-387B-4843-9972-58408A07526A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +60,22 @@ Global
 		{8846AE24-D0EF-4455-A85C-90C62DA6FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8846AE24-D0EF-4455-A85C-90C62DA6FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8846AE24-D0EF-4455-A85C-90C62DA6FD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C207E2AD-9AF7-4E34-836E-8F641025017E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C207E2AD-9AF7-4E34-836E-8F641025017E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C207E2AD-9AF7-4E34-836E-8F641025017E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C207E2AD-9AF7-4E34-836E-8F641025017E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA152A9-49FC-477D-A47A-923AC0A13076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA152A9-49FC-477D-A47A-923AC0A13076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA152A9-49FC-477D-A47A-923AC0A13076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA152A9-49FC-477D-A47A-923AC0A13076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B418A4C4-2B79-4FC2-8685-626A23F6E9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B418A4C4-2B79-4FC2-8685-626A23F6E9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B418A4C4-2B79-4FC2-8685-626A23F6E9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B418A4C4-2B79-4FC2-8685-626A23F6E9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB16B64D-387B-4843-9972-58408A07526A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB16B64D-387B-4843-9972-58408A07526A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB16B64D-387B-4843-9972-58408A07526A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB16B64D-387B-4843-9972-58408A07526A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

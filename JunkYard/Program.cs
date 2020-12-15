@@ -10,69 +10,41 @@ namespace JunkYard
     {
         static void Main(string[] args)
         {
-            //Just testing code...
+            Dictionary<int, Employee> employeess = new Dictionary<int, Employee>();
 
-            Employee employeeA = new Employee(1,"Steve Johnson");
-            Employee employeeB = new Employee(2,"Joe Johnson");
-            Employee employeeC = new Employee(3,"Morris Johnson");
-            Employee employeeD = new Employee(4,"Ted Johnson");
+            Employee employee1 = new Employee(1, "Greg");
+            Employee employee2 = new Employee(2, "Sue");
+            Employee employee3 = new Employee(3, "Jill");
 
-            Queue<Employee> employees = new Queue<Employee>();
+            //add to the dict
+            employeess.Add(1, employee1);
+            employeess.Add(2, employee2);
+            employeess.Add(3, employee3);
 
-            //ITS A F.I.F.O structre DONT FORGET...
-            //Enqueue is to add....
-            employees.Enqueue(employeeA);
-            employees.Enqueue(employeeB);
-            employees.Enqueue(employeeC);
-            employees.Enqueue(employeeD);
-
-            //see these values
-            foreach (var employee in employees)
+            //get info A
+            foreach (var item in employeess)
             {
-                Console.WriteLine(employee.EmployeeId);
-                Console.WriteLine(employee.EmployeeName);
-            }
-            Console.WriteLine("*******Now we Dqueue****************");
-            //Dequeue is to remove 
-            employees.Dequeue();
-            //see these values
-            foreach (var employee in employees)
-            {
-                Console.WriteLine(employee.EmployeeId);
-                Console.WriteLine(employee.EmployeeName);
+                if (item.Key==2)
+                {
+                    Console.WriteLine(item.Value.EmployeeName);
+                }
             }
 
-            Console.WriteLine("*******Now we Dqueue More...****************");
-            employees.Dequeue();
-            //see these values
-            foreach (var employee in employees)
+            foreach (var item in employeess.Values)
             {
-                Console.WriteLine(employee.EmployeeId);
-                Console.WriteLine(employee.EmployeeName);
+                Console.WriteLine(item.EmployeeName);
+            }
+
+            foreach (var item in employeess.Keys)
+            {
+                if (item == 2)
+                {
+                    Console.WriteLine(item);
+                }
             }
 
 
-            //Console.WriteLine("*******Now we Dqueue More...****************");
-            //employees.Dequeue();
-            //see these values
-            //foreach (var employee in employees)
-            //{
-            //    Console.WriteLine(employee.EmployeeId);
-            //    Console.WriteLine(employee.EmployeeName);
-            //}
 
-            //Console.WriteLine("*******Now we Dqueue More.(no more)..****************");
-            //employees.Dequeue();
-            //see these values
-            //foreach (var employee in employees)
-            //{
-            //    Console.WriteLine(employee.EmployeeId);
-            //    Console.WriteLine(employee.EmployeeName);
-            //}
-
-
-            //if I want to view who is next I need to "PEEK"
-            Console.WriteLine(employees.Peek().EmployeeName);
             Console.ReadKey();
         }
     }

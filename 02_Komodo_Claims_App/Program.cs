@@ -10,8 +10,8 @@ namespace _02_Komodo_Claims_App
     {
         static void Main(string[] args)
         {
-           /* Program_UI UI = new Program_UI();
-            UI.Run();*/
+            Program_UI UI = new Program_UI();
+            UI.Run();
         }
     }
 }

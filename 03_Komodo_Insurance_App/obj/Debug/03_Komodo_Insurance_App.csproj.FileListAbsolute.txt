@@ -5,3 +5,6 @@ C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\obj
 C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\obj\Debug\03_Komodo_Insurance_App.csproj.CoreCompileInputs.cache
 C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\obj\Debug\03_Komodo_Insurance_App.exe
 C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\obj\Debug\03_Komodo_Insurance_App.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\bin\Debug\03_Komodo_Insurance.dll
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\bin\Debug\03_Komodo_Insurance.pdb
+C:\Users\jessi\source\repos\01_Gold_Badge_Challenges\03_Komodo_Insurance_App\obj\Debug\03_Komodo_Insurance_App.csproj.CopyComplete

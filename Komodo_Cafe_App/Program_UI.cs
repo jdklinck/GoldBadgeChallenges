@@ -85,7 +85,7 @@ namespace Komodo_Cafe_App
             bool hasAllIngredients = false;
             MenuItem menuItem = new MenuItem();
 
-            Console.WriteLine("Enter the number number for the item.");
+            Console.WriteLine("Enter the number id for the item.");
             menuItem.MealNumber = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter the name of the item.");

@@ -10,19 +10,19 @@ namespace JunkYard
     {
         static void Main(string[] args)
         {
-            Dictionary<int, Employee> employeess = new Dictionary<int, Employee>();
+            Dictionary<int, Employee> employees = new Dictionary<int, Employee>();
 
             Employee employee1 = new Employee(1, "Greg");
             Employee employee2 = new Employee(2, "Sue");
             Employee employee3 = new Employee(3, "Jill");
 
             //add to the dict
-            employeess.Add(1, employee1);
-            employeess.Add(2, employee2);
-            employeess.Add(3, employee3);
+            employees.Add(1, employee1);
+            employees.Add(2, employee2);
+            employees.Add(3, employee3);
 
             //get info A
-            foreach (var item in employeess)
+            foreach (var item in employees)
             {
                 if (item.Key==2)
                 {
@@ -30,12 +30,12 @@ namespace JunkYard
                 }
             }
 
-            foreach (var item in employeess.Values)
+            foreach (var item in employees.Values)
             {
                 Console.WriteLine(item.EmployeeName);
             }
 
-            foreach (var item in employeess.Keys)
+            foreach (var item in employees.Keys)
             {
                 if (item == 2)
                 {

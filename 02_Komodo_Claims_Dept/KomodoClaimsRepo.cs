@@ -21,7 +21,7 @@ namespace _02_Komodo_Claims_Dept
             return _claimItems;
         }
 
-        public void NextInQueue(ClaimItems claim)
+        public void NextInQueue()
         {
             _claimItems.Dequeue();
         }

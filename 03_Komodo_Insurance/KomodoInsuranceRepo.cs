@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03_Komodo_Insurance
 {
-    class KomodoInsuranceRepo
+   public class KomodoInsuranceRepo
     {
         private Dictionary<int, EmployeeBadges> _employeeBadges = new Dictionary<int, EmployeeBadges>();
         int Count;
@@ -14,7 +14,7 @@ namespace _03_Komodo_Insurance
         public void AddABadge(EmployeeBadges empBadge) 
         {
             Count++;
-            _employeeBadges.Add(Count, empBadge);
+            _employeeBadges.Add(empBadge.BadgeID, empBadge);
         }
 
         //Read
@@ -30,6 +30,7 @@ namespace _03_Komodo_Insurance
             if (oldAccess != null) 
             {
                 oldAccess.DoorAccess = newAccess.DoorAccess;
+              // oldAccess.DoorAccess.Add(newAccess.DoorAccess);
                     return true;
             }
             else

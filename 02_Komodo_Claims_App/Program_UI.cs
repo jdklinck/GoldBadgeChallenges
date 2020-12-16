@@ -74,7 +74,7 @@ namespace _02_Komodo_Claims_App
             string inputAnswer = Console.ReadLine();
             if (inputAnswer =="y")
             {
-                _claimsRepo.NextInQueue(claimItems);
+                _claimsRepo.NextInQueue();
                 Console.WriteLine("Claim removed.");
             }
             if (inputAnswer=="n")

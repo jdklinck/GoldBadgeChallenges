@@ -89,29 +89,81 @@ namespace _03_Komodo_Insurance_App
         private void UpdateBadge()
         {
             Console.Clear();
-            ViewAllBadges();
-            Console.WriteLine("Enter the badge id to update.");
+            Console.WriteLine("Choose a menu option.\n" +
+                              "1.Remove Door\n" +
+                              "2.Add Door\n" +
+                              "3.Main Menu");
 
-            int badgeToUpdate = int.Parse(Console.ReadLine());
-            EmployeeBadges updateBadge = new EmployeeBadges();
-            EmployeeBadges testing = _insuranceRepo.GetById(badgeToUpdate);
-            Console.WriteLine("Do you want to add or remove a door access? a/r");
-            string input = Console.ReadLine();
-            if (input =="a" || input == "A") 
+            int userInput = int.Parse(Console.ReadLine());
+
+            switch (userInput)
             {
-                Console.WriteLine("What door do they need access to?");
-                // updateBadge.DoorAccess.Add(Console.ReadLine());
-                testing.DoorAccess.Add(Console.ReadLine());
-                Console.WriteLine("Door access added.");
+                case 1:
+                    RemoveDoor();
+                    break;
+                case 2:
+                    AddDoor();
+                    break;
+                case 3:
+                    BackToMainMenu();
+                    break;
+                default:
+                    Console.WriteLine("Sorry wrong Selection.");
+                    break;
             }
-           if (input == "r" || input =="R") 
+
+        }
+
+        private void BackToMainMenu()
+        {
+            Menu();
+        }
+
+        private void AddDoor()
+        {
+            Console.Clear();
+            ViewAllBadges();
+
+            Console.WriteLine("Please enter a Dictionary Key.");
+            int badgeByKey = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter the door name to be added.");
+            string doorName = Console.ReadLine();
+
+          bool isSuccessful= _insuranceRepo.AddDoor(badgeByKey, doorName);
+            if (isSuccessful)
             {
-                Console.WriteLine("What door would you like to remove.");
-                // updateBadge.DoorAccess.Remove(Console.ReadLine());
-                testing.DoorAccess.Remove(Console.ReadLine());
-                Console.WriteLine("Door access removed.");
+                Console.WriteLine($"Door Added: {doorName}");
             }
-           
+            else
+            {
+                Console.WriteLine($"{doorName} Failed to be added.");
+
+            }
+
+        }
+
+        private void RemoveDoor()
+        {
+            Console.Clear();
+            ViewAllBadges();
+
+            Console.WriteLine("Please enter a Dictionary Key.");
+            int userInput = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter the door name to be removed.");
+            string doorName = Console.ReadLine();
+
+           bool isSuccessful= _insuranceRepo.RemoveDoor(userInput, doorName);
+            if (isSuccessful)
+            {
+                Console.WriteLine($"Door Removed: {userInput}");
+            }
+            else
+            {
+                Console.WriteLine($"{userInput} Failed to be removed.");
+
+            }
         }
 
         private void ViewAllBadges()
@@ -119,18 +171,30 @@ namespace _03_Komodo_Insurance_App
             Console.Clear();
             Dictionary<int, EmployeeBadges> badges = _insuranceRepo.ViewAllBadges();
 
-            Console.WriteLine("Badge Id\t Door Access\t");
-            foreach (KeyValuePair<int, EmployeeBadges> badge in badges)
+            //Console.WriteLine("Badge Id\t Door Access\t");
+            foreach (var badge in badges)
             {
-                Console.Write($" {badge.Key,-17}");
-                foreach (var item in badge.Value.DoorAccess)
-                {
-                    Console.Write($"{item} ");
-                }
-                Console.WriteLine();
+                //Console.Write($" {badge,-17}");
+                Console.WriteLine($"DictKey: {badge.Key}");
+                ViewBadgeInfo(badge.Value);
             }
 
         }
+
+
+        private void ViewBadgeInfo(EmployeeBadges badge)
+        {
+            Console.WriteLine($"Badge Id: {badge.BadgeID}");
+           
+            foreach (var item in badge.DoorAccess)
+            {
+                Console.Write($"{item}\n");
+               
+            }
+         
+            Console.WriteLine("************************");
+        }
+
 
         private void SeedList()
         {

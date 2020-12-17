@@ -17,6 +17,7 @@ namespace _03_Komodo_Insurance
         public EmployeeBadges(int badgeId, List<string> doorAccess)
         {
             BadgeID = badgeId;
+            DoorAccess = new List<string>();
             DoorAccess = doorAccess;
         }
 

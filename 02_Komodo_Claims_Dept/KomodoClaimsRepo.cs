@@ -8,7 +8,6 @@ namespace _02_Komodo_Claims_Dept
 {
     public class KomodoClaimsRepo
     {
-
         private Queue<ClaimItems> _claimItems = new Queue<ClaimItems>();
 
         public void AddNewClaim(ClaimItems claims)
